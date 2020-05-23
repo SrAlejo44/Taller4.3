@@ -13,5 +13,5 @@ RUN npm install
 # Bundle app source
 
 EXPOSE 3001
-CMD [ "node", "app.js" ]
+CMD npm start
 
